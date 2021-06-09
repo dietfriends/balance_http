@@ -3,7 +3,8 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:dio/dio.dart';
-import 'package:http_parser/http_parser.dart';
+
+import 'utils.dart';
 
 class BalanceTransformer extends DefaultTransformer {
   @override
@@ -105,14 +106,5 @@ class BalanceTransformer extends DefaultTransformer {
       }
     }
     return responseBody;
-  }
-
-  bool isJsonMime(String? contentType) {
-    if (contentType == null) {
-      return false;
-    }
-    final mediaType = MediaType.parse(contentType);
-    return mediaType.type == 'application' &&
-        mediaType.subtype.contains(RegExp(r'\+?json'));
   }
 }

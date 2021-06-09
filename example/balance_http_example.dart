@@ -1,3 +1,5 @@
 import 'package:balance_http/balance_http.dart';
 
-void main() {}
+void main() {
+  final dio = BalanceDio();
+}
