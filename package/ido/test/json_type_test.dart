@@ -1,4 +1,4 @@
-import 'package:balance_http/src/utils.dart';
+import 'package:ido/src/utils.dart';
 import 'package:test/test.dart';
 
 void main() {

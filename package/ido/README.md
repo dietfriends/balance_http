@@ -5,7 +5,7 @@ A library for Dart developers.
 A simple usage example:
 
 ```dart
-import 'package:balance_http/balance_http.dart';
+import 'package:ido/ido.dart';
 
 main() {
   var awesome = new Awesome();

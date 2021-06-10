@@ -6,7 +6,7 @@ import 'package:dio/dio.dart';
 
 import 'utils.dart';
 
-class BalanceTransformer extends DefaultTransformer {
+class IdoTransformer extends DefaultTransformer {
   @override
   Future<String> transformRequest(RequestOptions options) {
     return super.transformRequest(options);
