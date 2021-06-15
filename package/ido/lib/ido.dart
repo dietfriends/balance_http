@@ -4,3 +4,5 @@
 library ido;
 
 export 'src/ido.dart';
+export 'src/transformer.dart';
+export 'src/http_ido.dart';
